@@ -1,0 +1,7 @@
+@function calcX($xVal) {
+  @return $xVal / $screen_width * 100%;
+}
+
+@function variable($var-name) {
+  @return var(--#{$var-name});
+}
